@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.banner {
+    background: linear-gradient(#00000085, #16293f), url(../images/coding-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    color: $white;
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

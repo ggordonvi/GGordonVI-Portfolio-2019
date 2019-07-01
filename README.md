@@ -4,12 +4,12 @@ Portfolio for ggordonvi.com
 
 This project was a rework of https://github.com/sixtheddie/ggordonvi.com
 
-What's in it?
+<b>What's in it?</b>
 
-ReactJS
-Bootstrap
-SASS
-scroll-react
+<li>ReactJS</li>
+<li>Bootstrap</li>
+<li>SASS</li>
+<li>scroll-react</li>
 
 
 

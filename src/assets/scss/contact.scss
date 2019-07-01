@@ -1,9 +1,14 @@
 @import './variables.scss';
 
 .contact {
+    background: linear-gradient(#16293f, #00000085), url(../images/grad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: $primary;
     color: $white;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
     height: 100vh;
 }

@@ -8,7 +8,7 @@ class Banner extends Component {
     return (
       <div className="banner">
         <div className="banner-content container-fluid text-center">
-          <h1>Hello! I'm a web developer!</h1>
+          <h1>Hello! I'm a web developer.</h1>
           <p>
             Focused on Front End UI / UX Development with Full Stack Knowledge.
           </p>

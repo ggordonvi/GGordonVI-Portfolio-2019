@@ -1,9 +1,9 @@
 @import './variables.scss';
 
 .projects {
-    background-color: $primary;
-    color: $white;
+    background-color: $white;
+    color: $black;
     padding-top: 4rem;
     padding-bottom: 4rem;
-    height: 100vh;
+    min-height: 100vh;
 }

@@ -2,42 +2,92 @@
 
 // Mobile Icon
 .fas {
-    color: $white;
+    color: $coral;
 }
 
 // Navbar
 .navbar {
     background: none;
+    float: none;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .navbar-nav {
     top: 40px;
-    right: 0px;
+    right: 0;
+    margin-right: 20px;
 }
 
 .navbar-brand {
-    font-family: 'Nosifer', cursive;
-    color: $white;
-    font-size: 2rem;
-    &:hover {
-        color: $complement;
-    }
+    background-image: url('../images/logo.png');
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    
 }
 
-.nav-link {
-    font-family: 'Bangers', cursive;
-    color: $white !important;
-    font-size: 1.75rem;
+.nav-text {
+    text-decoration: none !important;
+    text-transform: capitalize !important;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    color: $coral !important;
+    font-size: 1.25rem;
     &:hover {
-        color: $complement !important;
+        color: $blue !important;
     }
+
 }
 
 // Navbar Collapse Changes !!!!!! NEEDS BETTER IMPLEMENTATION
-.show {
-    height: 80vh;
-    padding-top: 50%;
-    padding-left: 40%;
-    background-color: rgba(175, 175, 175, 0.836);
+.mobile-nav {
+    display: flex;
+}
+.mobile-nav-close {
+    display: none;
+}
+@include media-breakpoint-down(md) {
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+    .show .navbar-nav {
+        background: rgba(0, 0, 0, 0.85);
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        min-height: 100vh;
+        margin: 0 !important;
+        padding: 0;
+    }
+    .mobile-nav {
+        display: grid !important;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    .nav-text {
+        font-size: 2rem;
+        clear: both;
+    }
+    .mobile-nav-close {
+        display: block;  
+        font-size: 2rem;
+        float: right;
+        margin-left: auto;
+        margin-right: 32px;
+        margin-top: 32px;
+        color: $white !important;
+    }
+
 }

@@ -1,14 +1,39 @@
 @import './variables.scss';
 
 .contact {
-    background: linear-gradient(#16293f, #00000085), url(../images/grad.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: $primary;
-    color: $white;
+    background-color: $white;
+    color: $black;
     height: 100vh;
+    display: grid;
+}
+.contact-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a {
+    text-decoration: none !important;
+    color: $black;
+    &:hover {
+        color: $coral;
+    }
+}
+
+.social-link {
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+.social-spacer {
+    display: inline-flex; 
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@include media-breakpoint-down(md) {
+    .social-link {
+        font-size: 20px;
+    }
+    .social-spacer {
+        font-size: 20px;
+    }
 }

@@ -24,7 +24,7 @@ class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <a className="mobile-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo01">X</a>
+            <div className="mobile-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo01">X</div>
             <div className="mobile-nav">
               <li className="nav-item">
                 <div className="nav-link" data-toggle="collapse" data-target="#navbarTogglerDemo01">

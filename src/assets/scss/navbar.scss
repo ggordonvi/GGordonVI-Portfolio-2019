@@ -53,6 +53,11 @@
 .mobile-nav-close {
     display: none;
 }
+// @include media-breakpoint-up(md) {
+//     .collapsing .show {
+//         transition: none 0s ease 0s !important;
+//     }
+// }
 @include media-breakpoint-down(md) {
     .collapsing {
         -webkit-transition: none;

@@ -12,6 +12,11 @@
     padding-bottom: 2rem;
 }
 
+.about-header {
+    display: flex;
+    align-items: center;
+}
+
 @include media-breakpoint-down(md) {
     .about {
         padding-top: 15vh;

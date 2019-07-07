@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // SCSS
-import '../../assets/scss/works.scss';
+import '../../assets/scss/work-page.scss';
 
 class Portfolio extends Component {
   render() {

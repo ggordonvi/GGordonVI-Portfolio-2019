@@ -8,6 +8,8 @@
 .about-content {
     margin-top: auto;
     margin-bottom: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 @include media-breakpoint-down(md) {

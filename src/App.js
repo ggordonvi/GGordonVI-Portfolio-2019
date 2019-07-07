@@ -21,14 +21,14 @@ function App() {
         <Navbar />
         <Switch>
           <Redirect exact path="/" to="/work" />
+          <Route path="/work/seating-app" component={SeatingApp} />
+          <Route path="/work/jill-sells-the-carolinas" component={JillSellsTheCarolinas} />
+          <Route path="/work/portfolio-old" component={PortfolioOld} />
+          <Route path="/work/portfolio" component={Portfolio} />
+          <Route path="/work/healthy-tid-bits-brochure" component={HtbBrochure} />
           <Route path="/work" component={Work} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/seating-app" component={SeatingApp} />
-          <Route path="/jill-sells-the-carolinas" component={JillSellsTheCarolinas} />
-          <Route path="/portfolio-old" component={PortfolioOld} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/healthy-tid-bits-brochure" component={HtbBrochure} />
         </Switch>
       </div>
     </Router>

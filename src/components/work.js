@@ -10,7 +10,7 @@ class Work extends Component {
       <div className="work">
         <div className="container">      
           <div className="card-columns text-white">
-            <NavLink exact activeClassName="active" to="/seating-app" className="nav-text">
+            <NavLink exact activeClassName="active" to="/work/seating-app" className="nav-text">
               <div className="card h-400 blue-bg shadow h-mobile">
                 <div className="card-img img-seating-app"></div>
                 <div className="card-shade">
@@ -21,7 +21,7 @@ class Work extends Component {
                 </div>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to="/jill-sells-the-carolinas" className="nav-text">
+            <NavLink exact activeClassName="active" to="/work/jill-sells-the-carolinas" className="nav-text">
               <div className="card h-500 purple-bg shadow h-mobile">
                 <div className="card-img img-jill"></div>
                 <div className="card-shade">
@@ -32,7 +32,7 @@ class Work extends Component {
                 </div>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to="/portfolio-old" className="nav-text">
+            <NavLink exact activeClassName="active" to="/work/portfolio-old" className="nav-text">
               <div className="card h-450 yellow-bg shadow h-mobile">
                 <div className="card-img img-my-portfolio-old"></div>
                 <div className="card-shade">
@@ -43,7 +43,7 @@ class Work extends Component {
                 </div>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to="/portfolio" className="nav-text">
+            <NavLink exact activeClassName="active" to="/work/portfolio" className="nav-text">
               <div className="card h-450 green-bg shadow h-mobile">
                 <div className="card-img img-my-portfolio"></div>
                 <div className="card-shade">
@@ -54,7 +54,7 @@ class Work extends Component {
                 </div>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to="/healthy-tid-bits-brochure" className="nav-text">
+            <NavLink exact activeClassName="active" to="/work/healthy-tid-bits-brochure" className="nav-text">
               <div className="card h-400 coral-bg shadow h-mobile">
                 <div className="card-img img-healthy-tid-bits"></div>
                 <div className="card-shade">

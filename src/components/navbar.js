@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 // SCSS
 import "../assets/scss/navbar.scss";
@@ -7,10 +7,8 @@ import "../assets/scss/navbar.scss";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg">
-        <div className="navbar-brand">
-          <Link to="/" className="navbar-brand"></Link>
-        </div>
+      <nav className="navbar navbar-expand-lg">
+        <Link to="work"> <div className="navbar-brand"></div></Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,21 +22,21 @@ class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <div className="mobile-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo01">X</div>
+            <button className="mobile-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo01">X</button>
             <div className="mobile-nav">
               <li className="nav-item">
                 <div className="nav-link" data-toggle="collapse" data-target="#navbarTogglerDemo01">
-                  <Link to="about" className="nav-text">ABOUT</Link>
+                  <NavLink exact activeClassName="active" to="/work" className="nav-text">WORK</NavLink>
                 </div>
               </li>
               <li className="nav-item">
                 <div className="nav-link" data-toggle="collapse" data-target="#navbarTogglerDemo01">
-                  <Link to="projects" className="nav-text">WORK</Link>
+                  <NavLink exact activeClassName="active" to="/about" className="nav-text">ABOUT</NavLink>
                 </div>
               </li>
               <li className="nav-item">
                 <div className="nav-link" data-toggle="collapse" data-target="#navbarTogglerDemo01">
-                  <Link to="contact" className="nav-text">CONTACT</Link>
+                  <NavLink exact activeClassName="active" to="/contact" className="nav-text">CONTACT</NavLink>
                 </div>
               </li>
               <li className="nav-item">

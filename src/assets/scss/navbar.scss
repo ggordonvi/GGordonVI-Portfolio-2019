@@ -10,7 +10,7 @@
     background: none;
     float: none;
     margin: 0 auto;
-    position: absolute;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -33,17 +33,25 @@
     
 }
 
+.navbar-toggler {
+    position: fixed;
+    right: 15px;
+}
+
 .nav-text {
     text-decoration: none !important;
     text-transform: capitalize !important;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    color: $coral !important;
+    color: $coral;
     font-size: 1.25rem;
     &:hover {
-        color: $blue !important;
+        color: $blue;
     }
+}
 
+.active {
+    color: $purple !important;
 }
 
 // Navbar Collapse Changes !!!!!! NEEDS BETTER IMPLEMENTATION
@@ -53,20 +61,22 @@
 .mobile-nav-close {
     display: none;
 }
-// @include media-breakpoint-up(md) {
-//     .collapsing .show {
-//         transition: none 0s ease 0s !important;
-//     }
-// }
+@include media-breakpoint-up(md) {
+    .collapsing {
+        -webkit-transition: none !important;
+        transition: none 0s ease 0s !important;
+        display: none !important;
+    }
+}
 @include media-breakpoint-down(md) {
     .collapsing {
-        -webkit-transition: none;
-        transition: none;
-        display: none;
+        -webkit-transition: none !important;
+        transition: none !important;
+        display: none !important;
     }
     .show .navbar-nav {
         background: rgba(0, 0, 0, 0.85);
-        position: absolute;
+        position: fixed;
         right: 0;
         left: 0;
         top: 0;
@@ -91,7 +101,7 @@
         float: right;
         margin-left: auto;
         margin-right: 32px;
-        margin-top: 32px;
+        margin-top: 35px;
         color: $white !important;
     }
 

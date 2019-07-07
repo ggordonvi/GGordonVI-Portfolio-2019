@@ -7,10 +7,40 @@ $white: #ffffff;
 $black: #000000;
 
 $blue: #2878F0;
+$green: rgb(40, 240, 67);
 $purple: #CC6DDE;
 $coral: #FF927F;
 $orange: #FFC661;
-$yellow: #F9F871;
+$yellow: rgb(235, 235, 47);
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+// Background Coloring
+.blue-bg {
+    background-color: $blue;
+}
+.green-bg {
+    background-color: $green;
+}
+.purple-bg {
+    background-color: $purple;
+}
+.coral-bg {
+    background-color: $coral;
+}
+.orange-bg {
+    background-color: $orange;
+}
+.yellow-bg {
+    background-color: $yellow;
+}
 
 // Fonts
 h1, h2, h3, h4, h5, h6 {

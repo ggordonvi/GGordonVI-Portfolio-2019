@@ -1,0 +1,108 @@
+@import './variables.scss';
+
+.work {
+    background-color: $white;
+    color: $black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    @include media-breakpoint-down(md) {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+.card {
+    border: none !important;
+}
+
+.card-shade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000091;
+    border-radius: 0.25rem !important;
+    cursor: pointer;
+    &:hover {
+        background-color: #000000dc;
+    }
+}
+
+.card-img {
+    position: absolute;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.img-seating-app {
+    background-image: url('../images/seatingapp.png');
+    background-position: left;
+}
+.img-jill {
+    background-image: url('../images/jillrealtor.png');
+    background-position: left;
+}
+.img-my-portfolio-old {
+    background-image: url('../images/seatingapp2.png');
+    background-position: left;
+}
+.img-my-portfolio {
+    background-image: url('../images/jillrealtor2.png');
+    background-position: left;
+}
+.img-healthy-tid-bits {
+    background-image: url('../images/healthyvending.png');
+    background-position: left;
+}
+.img-healthy-tid-bits-brochure {
+    background-image: url('../images/healthyvending.png');
+    background-position: left;
+}
+
+
+// Card Body
+.card-columns .card {
+    display: grid !important;
+}
+.h-mobile {
+    @include media-breakpoint-down(md) {
+        height: 300px !important;
+    }
+}
+.h-500 {
+    height: 500px;
+    margin-bottom: 20px !important;
+}
+.h-450 {
+    height: 450px;
+    margin-bottom: 20px !important;
+}
+.h-400 {
+    height: 400px;
+    margin-bottom: 20px !important;
+}
+
+.card-body {
+    position: absolute;
+    top: 50%;
+}
+
+.card-text {
+    color: $white;
+}
+
+// Column Sizing
+.card-columns {
+    @include media-breakpoint-up(md) {
+      column-count: 2;
+    }
+    @include media-breakpoint-down(md) {
+      column-count: 1;
+    }
+  }

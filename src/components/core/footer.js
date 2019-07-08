@@ -7,44 +7,43 @@ class Footer extends Component {
   render() {
     return (
       <div className="container-fluid footer">
-        <p className="f-email">
-          <a href="mailto:ggordonvi@gmail.com">ggordonvi@gmail.com</a>
-        </p>
         <div className="f-social">
+          <a href="mailto:ggordonvi@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+          <div className="f-social-spacer"></div>
           <a
             className="f-social-link"
             href="https://www.linkedin.com/in/ggordon-vi/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            <i class="fab fa-linkedin fa-2x"></i>
           </a>
-          <div className="f-social-spacer">/</div>
+          <div className="f-social-spacer"></div>
           <a
             className="f-social-link"
             href="https://github.com/sixtheddie"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            <i class="fab fa-github-square fa-2x"></i>
           </a>
-          <div className="f-social-spacer">/</div>
+          <div className="f-social-spacer"></div>
           <a
             className="f-social-link"
             href="https://www.facebook.com/eddiegordon6th"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Facebook
+            <i class="fab fa-facebook-square fa-2x"></i>
           </a>
-          <div className="f-social-spacer">/</div>
+          <div className="f-social-spacer"></div>
           <a
             className="f-social-link"
             href="https://twitter.com/GeorgeGordonVI"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            <i class="fab fa-twitter-square fa-2x"></i>
           </a>
         </div>
       </div>

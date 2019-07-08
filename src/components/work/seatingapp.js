@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // Component
 import BackToWork from "../core/back-to-work";
+import Footer from "../core/footer";
 
 // SCSS
 import "../../assets/scss/work-page.scss";
@@ -10,14 +11,14 @@ class SeatingApp extends Component {
   render() {
     return (
       <div className="works">
-        <div className="about-content container">
-          <div className="about-header">
+        <div className="container">
+          <div className="work-header">
             <BackToWork />
             <h2>Seating App</h2>
           </div>
           <h3>Mean Stack Web Application</h3>
           <div
-            id="carouselExampleInterval"
+            id="seatingAppCarousel"
             className="carousel slide mt-4 mb-4"
             data-ride="carousel"
           >
@@ -31,10 +32,13 @@ class SeatingApp extends Component {
               <div className="carousel-item" data-interval="10000">
                 <img src={require("../../assets/images/seatingapp2.png")} className="d-block" alt="..." />
               </div>
+              <div className="carousel-item" data-interval="10000">
+                <img src={require("../../assets/images/seatingapp4.png")} className="d-block" alt="..." />
+              </div>
             </div>
             <a
               className="carousel-control-prev"
-              href="#carouselExampleInterval"
+              href="#seatingAppCarousel"
               role="button"
               data-slide="prev"
             >
@@ -44,7 +48,7 @@ class SeatingApp extends Component {
             </a>
             <a
               className="carousel-control-next"
-              href="#carouselExampleInterval"
+              href="#seatingAppCarousel"
               role="button"
               data-slide="next"
             >
@@ -65,6 +69,7 @@ class SeatingApp extends Component {
             <li>AWS Elastic Beanstalk and MongoDB hosting.</li>
           </ul>
         </div>
+        <Footer />
       </div>
     );
   }

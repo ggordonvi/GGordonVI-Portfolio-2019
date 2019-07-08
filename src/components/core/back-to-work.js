@@ -7,7 +7,7 @@ import "../../assets/scss/work-page.scss";
 class BackToWork extends Component {
   render() {
     return (
-        <Link to="work">
+        <Link to="/work">
             <button
                 className="btn-backwork"
                 type="button"

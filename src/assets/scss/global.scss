@@ -25,23 +25,20 @@ button {
 }
 
 // Background Coloring
-.blue-bg {
-  background-color: $blue;
+.bg-red-orange {
+  background-color: $red-orange;
 }
-.green-bg {
-  background-color: $green;
+.bg-beige {
+  background-color: $beige;
 }
-.purple-bg {
-  background-color: $purple;
+.bg-aqua {
+  background-color: $aqua;
 }
-.coral-bg {
-  background-color: $coral;
+.bg-sky-blue {
+  background-color: $sky-blue;
 }
-.orange-bg {
-  background-color: $orange;
-}
-.yellow-bg {
-  background-color: $yellow;
+.bg-deep {
+  background-color: $deep;
 }
 
 // Fonts
@@ -51,17 +48,17 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 4.5rem;
   letter-spacing: 5px;
-  color: $blue;
+  color: $deep;
 }
 h2 {
   font-size: 3rem;
   letter-spacing: 5px;
-  color: $blue;
+  color: $deep;
 }
 h3 {
   font-size: 2rem;
   letter-spacing: 5px;
-  color: $coral;
+  color: $red-orange;
 }
 h4 {
   font-size: 1.75rem;
@@ -71,6 +68,13 @@ h4 {
 p {
   font-size: 25px;
   font-family: 'Comfortaa', cursive;
+}
+a {
+  text-decoration: none !important;
+  color: $deep;
+  &:hover {
+    color: $red-orange;
+  }
 }
 
 // Mobile & Tablet Font Sizing

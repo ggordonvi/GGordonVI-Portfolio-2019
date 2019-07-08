@@ -3,8 +3,9 @@
 .carousel-control-next, .carousel-control-prev {
     z-index: 0;
 }
+
 .btn-backwork {
-    color: $blue;
+    color: $sky-blue;
     padding: 10px;
     margin-right: 10px;
     margin-bottom: .5rem;
@@ -14,6 +15,14 @@
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    @include media-breakpoint-down(sm) {
+        height: 200px;
+    }
+}
+
+.work-header {
+    display: flex;
+    align-items: center;
 }
 
 .project-info {

@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <div className="container-fluid footer">
         <div className="f-social">
-          <a href="mailto:ggordonvi@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+          <a href="mailto:ggordonvi@gmail.com"><i className="fas fa-envelope-square fa-2x"></i></a>
           <div className="f-social-spacer"></div>
           <a
             className="f-social-link"
@@ -16,7 +16,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i className="fab fa-linkedin fa-2x"></i>
           </a>
           <div className="f-social-spacer"></div>
           <a
@@ -25,7 +25,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-github-square fa-2x"></i>
+            <i className="fab fa-github-square fa-2x"></i>
           </a>
           <div className="f-social-spacer"></div>
           <a
@@ -34,7 +34,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-facebook-square fa-2x"></i>
+            <i className="fab fa-facebook-square fa-2x"></i>
           </a>
           <div className="f-social-spacer"></div>
           <a
@@ -43,7 +43,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-twitter-square fa-2x"></i>
+            <i className="fab fa-twitter-square fa-2x"></i>
           </a>
         </div>
       </div>

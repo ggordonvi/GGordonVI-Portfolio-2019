@@ -16,7 +16,9 @@ class SeatingApp extends Component {
             <BackToWork />
             <h2>Seating App</h2>
           </div>
-          <h3>Mean Stack Web Application</h3>
+          <h3>MEAN Stack Web Application</h3>
+        </div>
+        <div className="container-fluid showcase">
           <div
             id="seatingAppCarousel"
             className="carousel slide mt-4 mb-4"
@@ -57,6 +59,8 @@ class SeatingApp extends Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
+        </div>
+        <div className="container"> 
           <h3>Core Features</h3>
           <ul className="project-info">
             <li>Angular 7, Node.js, Express, Mongoose.</li>

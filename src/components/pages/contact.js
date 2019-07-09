@@ -8,12 +8,12 @@ class Contact extends Component {
     return (
       <div className="contact">
         <div className="contact-content container">
-          <h2 className="pb-3">Let's chat.</h2>
-          <h3 className="pb-3">Contract work, careers, and collaboration.</h3>
-          <p>
+          <h2 className="pb-2">Let's chat.</h2>
+          <h3 className="pb-5">Contract work, careers, and collaboration.</h3>
+          <h4 className="pb-2">
             Contact me at{" "}
             <a href="mailto:ggordonvi@gmail.com">ggordonvi@gmail.com</a>
-          </p>
+          </h4>
           <div className="social">
             <a
               className="social-link"

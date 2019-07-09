@@ -25,7 +25,6 @@ class Work extends Component {
                   <div className="card-shade">
                     <div className="card-body">
                       <h4 className="card-text">Seating App</h4>
-                      {/* <p className="card-text">MEAN Stack Web Application</p> */}
                     </div>
                   </div>
                 </div>
@@ -41,7 +40,6 @@ class Work extends Component {
                   <div className="card-shade">
                     <div className="card-body">
                       <h4 className="card-text">Jill Sells the Carolinas</h4>
-                      {/* <p className="card-text">Web Application</p> */}
                     </div>
                   </div>
                 </div>
@@ -57,7 +55,6 @@ class Work extends Component {
                   <div className="card-shade">
                     <div className="card-body">
                       <h4 className="card-text">My Portfolio - Old</h4>
-                      {/* <p className="card-text">Web Application</p> */}
                     </div>
                   </div>
                 </div>
@@ -75,7 +72,6 @@ class Work extends Component {
                   <div className="card-shade">
                     <div className="card-body">
                       <h4 className="card-text">My Portfolio</h4>
-                      {/* <p className="card-text">Web Application</p> */}
                     </div>
                   </div>
                 </div>
@@ -91,29 +87,10 @@ class Work extends Component {
                   <div className="card-shade">
                     <div className="card-body">
                       <h4 className="card-text">Healthy Tid Bits</h4>
-                      {/* <p className="card-text">
-                        Mission Statement / Client Brochure
-                      </p> */}
                     </div>
                   </div>
                 </div>
               </NavLink>
-              {/* <NavLink
-                exactS
-                activeClassName="active"
-                to="/work/healthy-tid-bits-brochure"
-                className="nav-text"
-              >
-                <div className="card bg-red-orange shadow h-mobile">
-                  <div className="card-img img-healthy-tid-bits-brochure" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">Healthy Tid Bits</h4>
-                      <p className="card-text">Web Application</p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink> */}
             </div>
           </div>
         </div>

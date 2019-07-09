@@ -17,6 +17,8 @@ class PortfolioOld extends Component {
             <h2>My Portfolio - Old</h2>
           </div>
           <h3>Web Application</h3>
+        </div>
+        <div className="container-fluid showcase">  
           <div
             id="seatingAppCarousel"
             className="carousel slide mt-4 mb-4"
@@ -24,13 +26,16 @@ class PortfolioOld extends Component {
           >
             <div className="carousel-inner">
               <div className="carousel-item active" data-interval="10000">
-                <img src={require("../../assets/images/jillrealtor.png")} className="d-block" alt="..." />
+                <img src={require("../../assets/images/portfolio-old1.png")} className="d-block" alt="..." />
               </div>
               <div className="carousel-item" data-interval="10000">
-                <img src={require("../../assets/images/jillrealtor2.png")} className="d-block" alt="..." />
+                <img src={require("../../assets/images/portfolio-old2.png")} className="d-block" alt="..." />
               </div>
               <div className="carousel-item" data-interval="10000">
-                <img src={require("../../assets/images/jillrealtor3.png")} className="d-block" alt="..." />
+                <img src={require("../../assets/images/portfolio-old3.png")} className="d-block" alt="..." />
+              </div>
+              <div className="carousel-item" data-interval="10000">
+                <img src={require("../../assets/images/portfolio-old4.png")} className="d-block" alt="..." />
               </div>
             </div>
             <a
@@ -54,14 +59,14 @@ class PortfolioOld extends Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
+        </div>
+        <div className="container">  
           <h3>Core Features</h3>
           <ul className="project-info">
-            <li>Angular 7, Node.js, Bootstrap.</li>
-            <li>Local property listings pulled from listings API.</li>
-            <li>Contact forms to retrieve potential client information made with Nodemailer and AWS-SDK.</li>
-            <li>Contact form validation includes Google reCaptcha.</li>
-            <li>SEO optimization and Google Analytics.</li>
-            <li>AWS ElasticBeanstalk and AWS SES hosting.</li>
+            <li>React and Bootstrap.</li>
+            <li>Lots of custom CSS to build unique SPA design.</li>
+            <li>Full mobile to desktop customization.</li>
+            <li>AWS S3 bucket hosting.</li>
           </ul>
         </div>
         <Footer />

@@ -1,32 +1,51 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.carousel-control-next, .carousel-control-prev {
-    z-index: 0;
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0;
 }
 
 .btn-backwork {
-    color: $sky-blue;
-    padding: 10px;
-    margin-right: 10px;
-    margin-bottom: .5rem;
+  color: $sky-blue;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 0.5rem;
 }
 
 .d-block {
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    @include media-breakpoint-down(sm) {
-        height: 200px;
-    }
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  @include media-breakpoint-down(sm) {
+    height: 200px;
+  }
 }
 
 .work-header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .project-info {
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 2.5rem;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  line-height: 2.5rem;
+}
+
+.project-links {
+  text-align: right;
+}
+
+.btn-plink {
+  cursor: pointer;
+  color: $red-orange;
+  background-color: transparent;
+  background-image: none;
+  border-color: $red-orange;
+  font-size: 20px;
+  margin: 10px;
+  &:hover {
+    background-color: $red-orange;
+    color: $white;
+  }
 }

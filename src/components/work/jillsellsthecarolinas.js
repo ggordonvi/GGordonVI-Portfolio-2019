@@ -84,7 +84,7 @@ class JillSellsTheCarolinas extends Component {
           </ul>
           <div className="project-links">
             <a
-              class="btn btn-plink"
+              className="btn btn-plink"
               href="https://github.com/sixtheddie/jillsellsthecarolinas"
               role="button"
               target="_blank"
@@ -93,7 +93,7 @@ class JillSellsTheCarolinas extends Component {
               Source
             </a>
             <a
-              class="btn btn-plink"
+              className="btn btn-plink"
               href="http://www.jillsellsthecarolinas.com"
               role="button"
               target="_blank"

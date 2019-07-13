@@ -86,7 +86,7 @@ class PortfolioOld extends Component {
           </ul>
           <div className="project-links">
             <a
-              class="btn btn-plink"
+              className="btn btn-plink"
               href="https://github.com/sixtheddie/ggordonvi.com"
               role="button"
               target="_blank"

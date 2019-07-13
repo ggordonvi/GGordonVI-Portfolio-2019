@@ -90,7 +90,7 @@ class SeatingApp extends Component {
           </ul>
           <div className="project-links">
             <a
-              class="btn btn-plink"
+              className="btn btn-plink"
               href="https://github.com/sixtheddie/Seating-App"
               role="button"
               target="_blank"
@@ -99,7 +99,7 @@ class SeatingApp extends Component {
               Source
             </a>
             <a
-              class="btn btn-plink"
+              className="btn btn-plink"
               href="http://seating-app.us-east-1.elasticbeanstalk.com/landing"
               role="button"
               target="_blank"

@@ -1,7 +1,8 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.carousel-control-next, .carousel-control-prev {
-    z-index: 0;
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0;
 }
 
 .showcase {
@@ -13,25 +14,32 @@
 }
 
 .btn-backwork {
+<<<<<<< HEAD
     color: $sky-blue;
     // padding: 10px;
     // margin-right: 10px;
     // margin-bottom: .5rem;
     padding-left: 20px;
+=======
+  color: $sky-blue;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 0.5rem;
+>>>>>>> 027d3735df532586da72c2bda7e71980cefe6d16
 }
 
 .d-block {
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    @include media-breakpoint-down(sm) {
-        height: 200px;
-    }
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  @include media-breakpoint-down(sm) {
+    height: 200px;
+  }
 }
 
 .work-header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-text {
@@ -39,7 +47,25 @@
 }
 
 .project-info {
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 2.5rem;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  line-height: 2.5rem;
+}
+
+.project-links {
+  text-align: right;
+}
+
+.btn-plink {
+  cursor: pointer;
+  color: $red-orange;
+  background-color: transparent;
+  background-image: none;
+  border-color: $red-orange;
+  font-size: 20px;
+  margin: 10px;
+  &:hover {
+    background-color: $red-orange;
+    color: $white;
+  }
 }

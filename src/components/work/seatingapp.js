@@ -28,16 +28,32 @@ class SeatingApp extends Component {
           >
             <div className="carousel-inner">
               <div className="carousel-item active" data-interval="10000">
-                <img src={require("../../assets/images/seatingapp.png")} className="d-block" alt="..." />
+                <img
+                  src={require("../../assets/images/seatingapp.png")}
+                  className="d-block"
+                  alt="..."
+                />
               </div>
               <div className="carousel-item" data-interval="10000">
-                <img src={require("../../assets/images/seatingapp1.png")} className="d-block" alt="..." />
+                <img
+                  src={require("../../assets/images/seatingapp1.png")}
+                  className="d-block"
+                  alt="..."
+                />
               </div>
               <div className="carousel-item" data-interval="10000">
-                <img src={require("../../assets/images/seatingapp2.png")} className="d-block" alt="..." />
+                <img
+                  src={require("../../assets/images/seatingapp2.png")}
+                  className="d-block"
+                  alt="..."
+                />
               </div>
               <div className="carousel-item" data-interval="10000">
-                <img src={require("../../assets/images/seatingapp4.png")} className="d-block" alt="..." />
+                <img
+                  src={require("../../assets/images/seatingapp4.png")}
+                  className="d-block"
+                  alt="..."
+                />
               </div>
             </div>
             <a
@@ -46,7 +62,7 @@ class SeatingApp extends Component {
               role="button"
               data-slide="prev"
             >
-              <i className="fas fa-chevron-left fa-2x"></i>
+              <i className="fas fa-chevron-left fa-2x" />
               {/* <span className="carousel-control-prev-icon" aria-hidden="true" /> */}
               <span className="sr-only">Previous</span>
             </a>
@@ -56,24 +72,44 @@ class SeatingApp extends Component {
               role="button"
               data-slide="next"
             >
-              <i className="fas fa-chevron-right fa-2x"></i>
+              <i className="fas fa-chevron-right fa-2x" />
               {/* <span className="carousel-control-next-icon" aria-hidden="true" /> */}
               <span className="sr-only">Next</span>
             </a>
           </div>
         </div>
-        <div className="container"> 
+        <div className="container">
           <h3>Core Features</h3>
           <ul className="project-info">
-            <li>Angular 7, Node.js, Express, Mongoose.</li>
-            <li>Password hashing and session tokens.</li>
-            <li>Fluid UI reactions to user selection.</li>
-            <li>RESTful API and CRUD database operations.</li>
-            <li>Jasmine and Karma unit testing.</li>
-            <li>Selenium behavioral testing.</li>
-            <li>Interactive floorplans built with Fabric.js framework.</li>
-            <li>AWS Elastic Beanstalk and MongoDB hosting.</li>
+            <li>Angular 7, Node.js, Express, Mongoose</li>
+            <li>Password hashing and session tokens</li>
+            <li>Fluid UI reactions to user selection</li>
+            <li>RESTful API and CRUD database operations</li>
+            <li>Jasmine and Karma unit testing</li>
+            <li>Selenium behavioral testing</li>
+            <li>Interactive floorplans built with Fabric.js framework</li>
+            <li>AWS Elastic Beanstalk and MongoDB hosting</li>
           </ul>
+          <div className="project-links">
+            <a
+              className="btn btn-plink"
+              href="https://github.com/sixtheddie/Seating-App"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source
+            </a>
+            <a
+              className="btn btn-plink"
+              href="http://seating-app.us-east-1.elasticbeanstalk.com/landing"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View
+            </a>
+          </div>
         </div>
         <Footer />
       </div>

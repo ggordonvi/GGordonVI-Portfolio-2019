@@ -12,6 +12,7 @@ class Work extends Component {
     return (
       <div>
         <div className="container work">
+          <h4 className="header-text">Click on the pictures below to see my work, or <a href="/about">get to know me</a>.  And when you're ready <a href="/about">contact me</a>!</h4>
           <div className="row">
             <div className="col-sm-12 col-lg-6 col-work text-white">
               <NavLink
@@ -20,11 +21,12 @@ class Work extends Component {
                 to="/work/seating-app"
                 className="nav-text"
               >
-                <div className="card bg-red-orange shadow h-mobile">
+                <div className="card bg-red-orange shadow">
                   <div className="card-img img-seating-app" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">Seating App</h4>
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h4 className="card-title">Seating App</h4>
+                      <h5 className="card-info">MEAN Stack Web Application</h5>
                     </div>
                   </div>
                 </div>
@@ -35,11 +37,12 @@ class Work extends Component {
                 to="/work/jill-sells-the-carolinas"
                 className="nav-text"
               >
-                <div className="card bg-beige shadow h-mobile">
+                <div className="card bg-sky-blue shadow">
                   <div className="card-img img-jill" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">Jill Sells the Carolinas</h4>
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h4 className="card-title">Jill Sells the Carolinas</h4>
+                      <h5 className="card-info">Web Application</h5>
                     </div>
                   </div>
                 </div>
@@ -50,28 +53,30 @@ class Work extends Component {
                 to="/work/portfolio-old"
                 className="nav-text"
               >
-                <div className="card bg-sky-blue shadow h-mobile">
+                <div className="card bg-beige shadow">
                   <div className="card-img img-my-portfolio-old" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">My Portfolio - Old</h4>
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h4 className="card-title">My Portfolio - Old</h4>
+                      <h5 className="card-info">Web Application</h5>
                     </div>
                   </div>
                 </div>
               </NavLink>
             </div>  
             <div className="col-sm-12 col-lg-6 col-work text-white mtb-auto">
-              <NavLink
+            <NavLink
                 exact
                 activeClassName="active"
-                to="/work/portfolio"
+                to="/work/graphics"
                 className="nav-text"
               >
-                <div className="card bg-deep shadow h-mobile">
-                  <div className="card-img img-my-portfolio" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">My Portfolio</h4>
+                <div className="card bg-deep shadow">
+                  <div className="card-img img-graphics" />
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h4 className="card-title">Graphics</h4>
+                      <h5 className="card-info">UI Designs &#38; Graphic Work</h5>
                     </div>
                   </div>
                 </div>
@@ -79,14 +84,15 @@ class Work extends Component {
               <NavLink
                 exact
                 activeClassName="active"
-                to="/work/healthy-tid-bits-brochure"
+                to="/work/portfolio"
                 className="nav-text"
               >
-                <div className="card bg-aqua shadow h-mobile">
-                  <div className="card-img img-healthy-tid-bits" />
-                  <div className="card-shade">
-                    <div className="card-body">
-                      <h4 className="card-text">Healthy Tid Bits</h4>
+                <div className="card bg-aqua shadow">
+                  <div className="card-img img-my-portfolio" />
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h4 className="card-title">My Portfolio</h4>
+                      <h5 className="card-info">Web Application</h5>
                     </div>
                   </div>
                 </div>

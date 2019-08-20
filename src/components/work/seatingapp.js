@@ -11,12 +11,14 @@ class SeatingApp extends Component {
   render() {
     return (
       <div className="works">
-        <div className="container">
+        <div className="container-fluid">
           <div className="work-header">
             <BackToWork />
-            <h2>Seating App</h2>
           </div>
-          <h3>MEAN Stack Web Application</h3>
+          <div className="header-text">
+            <h2>Seating App</h2>
+            <h3>MEAN Stack Web Application</h3>
+          </div>
         </div>
         <div className="container-fluid showcase">
           <div

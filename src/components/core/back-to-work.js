@@ -13,6 +13,7 @@ class BackToWork extends Component {
                 type="button"
             >
                 <i className="far fa-arrow-alt-circle-left fa-2x"></i>
+              <h4>Back to Work</h4>
             </button>
         </Link>
     );

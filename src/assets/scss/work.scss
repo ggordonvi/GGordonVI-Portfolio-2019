@@ -1,10 +1,11 @@
 @import './variables.scss';
 
 .work {
+    text-align: center;
     background-color: $white;
     color: $black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    // padding-top: 1rem;
+    // padding-bottom: 1rem;
     width: 100%;
     height: 100%;
     @include media-breakpoint-down(md) {
@@ -13,93 +14,108 @@
     }
 }
 
-.showcase {
-    background-color: #ececec;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.card {
-    border: none !important;
-    height: 400px !important;
-    margin: 15px;
-}
-
-.card-shade {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #00000050;
-    border-radius: 0.25rem !important;
-    cursor: pointer;
-    &:hover {
-        background-color: #000000ab;
-    }
-}
-
-.card-img {
-    position: absolute;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-}
-
-.img-seating-app {
-    background-image: url('../images/seatingapp.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-.img-jill {
-    background-image: url('../images/jillrealtor.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-.img-my-portfolio-old {
-    background-image: url('../images/portfolio-old1.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-.img-my-portfolio {
-    background-image: url('../images/portfolio1.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-.img-healthy-tid-bits {
-    background-image: url('../images/healthyvending1.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-.img-healthy-tid-bits-brochure {
-    background-image: url('../images/healthyvending.png');
-    background-position: center bottom;
-    background-size: contain;
-}
-
-
-// Card Body
-.h-mobile {
-    @include media-breakpoint-down(md) {
-        height: 300px !important;
-    }
-}
-
-.card-body {
-    position: absolute;
-    top: 5px;
-}
-
-.card-text {
-    color: $white;
-    font-weight: 500;
+.header-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 // Column Sizing
 .col-work {
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+
+
+// Cards
+.card {
+    border: none;
+    height: 400px !important;
+    margin: 15px;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+    padding: 0 !important;
+    display: table;
+    position: absolute;
+    background-color: #00000033;
+    border-radius: 0.25rem !important;
+    @include media-breakpoint-up(lg) {
+        &:hover .card-text {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        &:hover {
+            background-color: #d8d8d8ec;
+        }
+    }
+}
+
+.card-text {
+    display: none;
+    color: $black;
+}
+
+.card-title {
+    font-weight: 600;
+}
+.card-info {
+    font-weight: 800;
+    color: $red-orange;
+}
+
+// Mobile Cards
+@include media-breakpoint-down(md) {
+    .card {
+        height: 300px !important;
+    }
+    .card-text {
+        display: block;
+        color: $white;
+        text-align: left;
+        padding: 20px;
+    }
+    .card-info {
+        display: none;
+    }
+}
+
+// Mobile Images
+@include media-breakpoint-down(md) {
+    .card-img {
+        background-position: center bottom !important;
+    }
+}
+
+
+// Card Images
+.card-img {
+    position: absolute;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-position: center center;
+    height: 100%;
+}
+.img-seating-app {
+    background-image: url('../images/seatingapp.png');
+}
+.img-jill {
+    background-image: url('../images/jillrealtor.png');
+}
+.img-my-portfolio-old {
+    background-image: url('../images/portfolio-old1.png');
+}
+.img-my-portfolio {
+    background-image: url('../images/portfolio1.png');
+}
+.img-healthy-tid-bits {
+    background-image: url('../images/healthyvending1.png');
+}
+.img-graphics {
+    background-image: url('../images/dailyui-002.png');
 }

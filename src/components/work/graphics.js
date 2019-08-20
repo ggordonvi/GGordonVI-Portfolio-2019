@@ -7,7 +7,7 @@ import Footer from '../core/footer';
 // SCSS
 import '../../assets/scss/work-page.scss';
 
-class HtbBrochure extends Component {
+class Graphics extends Component {
   render() {
     return (
       <div className="works">
@@ -33,4 +33,4 @@ class HtbBrochure extends Component {
   }
 }
 
-export default HtbBrochure;
+export default Graphics;

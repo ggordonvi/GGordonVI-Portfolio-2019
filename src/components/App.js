@@ -17,7 +17,7 @@ import SeatingApp from "./work/seatingapp";
 import JillSellsTheCarolinas from "./work/jillsellsthecarolinas";
 import PortfolioOld from "./work/portfolio-old";
 import Portfolio from "./work/portfolio";
-import HtbBrochure from "./work/htb-broucher";
+import Graphics from "./work/graphics";
 
 function App() {
   return (
@@ -34,8 +34,8 @@ function App() {
           <Route path="/work/portfolio-old" component={PortfolioOld} />
           <Route path="/work/portfolio" component={Portfolio} />
           <Route
-            path="/work/healthy-tid-bits-brochure"
-            component={HtbBrochure}
+            path="/work/graphics"
+            component={Graphics}
           />
           <Route path="/work" component={Work} />
           <Route path="/about" component={About} />

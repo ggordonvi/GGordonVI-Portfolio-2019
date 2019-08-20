@@ -4,11 +4,20 @@
     z-index: 0;
 }
 
+.showcase {
+    background-color: #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .btn-backwork {
     color: $sky-blue;
-    padding: 10px;
-    margin-right: 10px;
-    margin-bottom: .5rem;
+    // padding: 10px;
+    // margin-right: 10px;
+    // margin-bottom: .5rem;
+    padding-left: 20px;
 }
 
 .d-block {
@@ -23,6 +32,10 @@
 .work-header {
     display: flex;
     align-items: center;
+}
+
+.header-text {
+    text-align: center;
 }
 
 .project-info {

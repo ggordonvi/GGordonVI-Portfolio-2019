@@ -12,11 +12,10 @@ class PortfolioOld extends Component {
     return (
       <div className="works">
         <div className="container">
-          <div className="work-header">
-            <BackToWork />
+          <div className="header-text">
             <h2>My Portfolio - Old</h2>
+            <h3>React Website</h3>
           </div>
-          <h3>Web Application</h3>
         </div>
         <div className="container-fluid showcase">
           <div
@@ -76,25 +75,28 @@ class PortfolioOld extends Component {
             </a>
           </div>
         </div>
-        <div className="container">
-          <h3>Core Features</h3>
+        <div className="container project-text">
+          <h3 className="mb-4">About Project</h3>
+          <p className="mb-4">This was my first take on my portfolio built in React just to get some experience with the library.  Complete SPA design with react-scroll to add fluid scrolling from the navbar between sections.  Loads of custom CSS to produce a fluid desktop to mobile website, along with providing a clean cut display of my skills, projects, and contact information.</p>
+          <h3 className="mb-4">Core Features</h3>
           <ul className="project-info">
             <li>React and Bootstrap</li>
             <li>Lots of custom CSS to build unique SPA design</li>
             <li>Full mobile to desktop customization</li>
             <li>AWS S3 bucket hosting</li>
           </ul>
-          <div className="project-links">
-            <a
-              className="btn btn-plink"
-              href="https://github.com/sixtheddie/ggordonvi.com"
-              role="button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source
-            </a>
-          </div>
+        </div>
+        <div className="project-nav">
+          <BackToWork></BackToWork>
+          <a
+            className="btn btn-plink"
+            href="https://github.com/sixtheddie/ggordonvi.com"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
         </div>
         <Footer />
       </div>

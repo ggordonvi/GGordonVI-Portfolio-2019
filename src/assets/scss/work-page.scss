@@ -13,14 +13,6 @@
     margin-bottom: 15px;
 }
 
-.btn-backwork {
-    color: $sky-blue;
-    // padding: 10px;
-    // margin-right: 10px;
-    // margin-bottom: .5rem;
-    padding-left: 20px;
-}
-
 .d-block {
   height: 400px;
   margin-left: auto;
@@ -30,13 +22,29 @@
   }
 }
 
-.work-header {
-  display: flex;
-  align-items: center;
+.graphics {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.graphics-img {
+  display: block!important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-text {
-    text-align: center;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-text {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .project-info {
@@ -45,20 +53,28 @@
   line-height: 2.5rem;
 }
 
-.project-links {
-  text-align: right;
+.project-nav {
+  background-color: #ececec;
+  padding: 1rem;
+  text-align: center;
 }
 
 .btn-plink {
   cursor: pointer;
-  color: $red-orange;
-  background-color: transparent;
+  text-align: right;
+  color: $white;
+  background-color: $sky-blue;
   background-image: none;
-  border-color: $red-orange;
-  font-size: 20px;
+  border-color: $sky-blue;
+  font-size: 20px !important;
   margin: 10px;
   &:hover {
-    background-color: $red-orange;
+    background-color: $deep;
+    border-color: $deep;
     color: $white;
   }
+}
+.fa-arrow-alt-circle-left {
+  font-size: 20px;
+  margin-right: 10px;
 }

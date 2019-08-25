@@ -12,11 +12,10 @@ class JillSellsTheCarolinas extends Component {
     return (
       <div className="works">
         <div className="container">
-          <div className="work-header">
-            <BackToWork />
+          <div className="header-text">
             <h2>Jill Sells the Carolinas</h2>
+            <h3>Web Application</h3>
           </div>
-          <h3>Web Application</h3>
         </div>
         <div className="container-fluid showcase">
           <div
@@ -69,8 +68,10 @@ class JillSellsTheCarolinas extends Component {
             </a>
           </div>
         </div>
-        <div className="container">
-          <h3>Core Features</h3>
+        <div className="container project-text">
+          <h3 className="mb-4">About Project</h3>
+          <p className="mb-4">Client needed ability to showcase her capabilities and services as a real estate agent for Kellar Williams Reality.  She needed ability to grab potential client information via an email form.  Other bonuses she needed including allowing potential clients to search properties, along with promoting herself through social media links, books, and SEO.</p>
+          <h3 className="mb-4">Core Features</h3>
           <ul className="project-info">
             <li>Angular 7, Node.js, Bootstrap</li>
             <li>Local property listings pulled from listings API</li>
@@ -82,26 +83,27 @@ class JillSellsTheCarolinas extends Component {
             <li>SEO optimization and Google Analytics</li>
             <li>AWS ElasticBeanstalk and AWS SES hosting</li>
           </ul>
-          <div className="project-links">
-            <a
-              className="btn btn-plink"
-              href="https://github.com/sixtheddie/jillsellsthecarolinas"
-              role="button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source
-            </a>
-            <a
-              className="btn btn-plink"
-              href="http://www.jillsellsthecarolinas.com"
-              role="button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View
-            </a>
-          </div>
+        </div>
+        <div className="project-nav">
+          <BackToWork></BackToWork>
+          <a
+            className="btn btn-plink"
+            href="https://github.com/sixtheddie/jillsellsthecarolinas"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
+          <a
+            className="btn btn-plink"
+            href="http://www.jillsellsthecarolinas.com"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Application
+          </a>
         </div>
         <Footer />
       </div>

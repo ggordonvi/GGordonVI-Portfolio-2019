@@ -4,9 +4,20 @@
 .fas {
     color: $red-orange;
 }
-
 .fab {
     color: $red-orange;
+}
+@include media-breakpoint-up(md) {
+    .fas {
+        &:hover {
+            color: $deep;
+        }
+    }
+    .fab {
+        &:hover {
+            color: $deep;
+        }
+    }
 }
 
 // Navbar
@@ -35,7 +46,6 @@
     background-size: contain;
     width: 100px;
     height: 100px;
-    
 }
 
 .navbar-toggler {
@@ -106,7 +116,7 @@
         float: right;
         margin-left: auto;
         margin-right: 32px;
-        margin-top: 35px;
+        margin-top: 30px;
         color: $red-orange !important;
     }
 

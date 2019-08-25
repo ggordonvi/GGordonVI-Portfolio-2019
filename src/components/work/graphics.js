@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Component
 import BackToWork from "../core/back-to-work";
+import ImgLoading from '../core/img-loading';
 import Footer from '../core/footer';
 
 // SCSS
@@ -12,20 +13,19 @@ class Graphics extends Component {
     return (
       <div className="works">
         <div className="container">
-          <div className="work-header">
-            <BackToWork />
-            <h2>Healthy Tid Bits</h2>
+          <div className="header-text">
+            <h2>Graphics</h2>
+            <h3>UI Designs &#38; Graphic Work</h3>
           </div>
-          <h3>Mission Statement / Client Brochure</h3>
         </div>
-        <div className="container-fluid showcase">  
-          <img src={require("../../assets/images/healthyvending1.png")} className="d-block" alt="..." />
+        <div className="container graphics">
+          <img src={require("../../assets/images/dailyui-001.png")} className="graphics-img" alt="..." />
+          <img src={require("../../assets/images/healthyvending1.png")} className="graphics-img" alt="..." />
+          <img src={require("../../assets/images/dailyui-002-1.png")} className="graphics-img" alt="..." />
+          <img src={require("../../assets/images/togo-menu-v3.png")} className="graphics-img" alt="..." />
         </div>
-        <div className="container">  
-          <h3>Core Features</h3>
-          <ul className="project-info">
-            <p>Company needed rebranding on brochures for potential new clients. Graphics were highly important to Tid Bits. The need to emphasize machine requirements, specifications, and an ability to tailor items to clients' needs -- while still conveying a message of a healthy alternative -- were key.</p>
-          </ul>
+        <div className="project-nav">
+          <BackToWork></BackToWork>
         </div>
         <Footer />
       </div>

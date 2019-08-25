@@ -11,10 +11,7 @@ class SeatingApp extends Component {
   render() {
     return (
       <div className="works">
-        <div className="container-fluid">
-          <div className="work-header">
-            <BackToWork />
-          </div>
+        <div className="container">
           <div className="header-text">
             <h2>Seating App</h2>
             <h3>MEAN Stack Web Application</h3>
@@ -78,8 +75,10 @@ class SeatingApp extends Component {
             </a>
           </div>
         </div>
-        <div className="container">
-          <h3>Core Features</h3>
+        <div className="container project-text">
+          <h3 className="mb-4">About Project</h3>
+          <p className="mb-4">The Seating-App was founded by a group of University of South Carolina students who wanted to provide a useful tool for restaurant owners in Columbia, SC. We realized that many of these owners could benefit from a web application that efficiently sat customers at tables, tracked reservations, and provided real time statistics in order to make business decisions.</p>
+          <h3 className="mb-4">Core Features</h3>
           <ul className="project-info">
             <li>Angular 7, Node.js, Express, Mongoose</li>
             <li>Password hashing and session tokens</li>
@@ -90,26 +89,27 @@ class SeatingApp extends Component {
             <li>Interactive floorplans built with Fabric.js framework</li>
             <li>AWS Elastic Beanstalk and MongoDB hosting</li>
           </ul>
-          <div className="project-links">
-            <a
-              className="btn btn-plink"
-              href="https://github.com/sixtheddie/Seating-App"
-              role="button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source
-            </a>
-            <a
-              className="btn btn-plink"
-              href="http://seating-app.us-east-1.elasticbeanstalk.com/landing"
-              role="button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View
-            </a>
-          </div>
+        </div>
+        <div className="project-nav">
+          <BackToWork></BackToWork>
+          <a
+            className="btn btn-plink"
+            href="https://github.com/sixtheddie/Seating-App"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
+          <a
+            className="btn btn-plink"
+            href="http://seating-app.us-east-1.elasticbeanstalk.com/landing"
+            role="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Application
+          </a>
         </div>
         <Footer />
       </div>

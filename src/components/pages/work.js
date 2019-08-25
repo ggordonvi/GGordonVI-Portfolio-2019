@@ -12,7 +12,7 @@ class Work extends Component {
     return (
       <div>
         <div className="container work">
-          <h4 className="header-text">Click on the pictures below to see my work, or <a href="/about">get to know me</a>.  And when you're ready <a href="/about">contact me</a>!</h4>
+          <h2 className="intro-text">Click on the pictures below to see my work, or <a href="/about">get to know me</a>.  And when you're ready <a href="/about">contact me</a>!</h2>
           <div className="row">
             <div className="col-sm-12 col-lg-6 col-work text-white">
               <NavLink
@@ -42,7 +42,7 @@ class Work extends Component {
                   <div className="card-body">
                     <div className="card-text">
                       <h4 className="card-title">Jill Sells the Carolinas</h4>
-                      <h5 className="card-info">Web Application</h5>
+                      <h5 className="card-info">Angular &#38; Node Web Application</h5>
                     </div>
                   </div>
                 </div>
@@ -50,15 +50,15 @@ class Work extends Component {
               <NavLink
                 exact
                 activeClassName="active"
-                to="/work/portfolio-old"
+                to="/work/portfolio"
                 className="nav-text"
               >
                 <div className="card bg-beige shadow">
-                  <div className="card-img img-my-portfolio-old" />
+                  <div className="card-img img-my-portfolio" />
                   <div className="card-body">
                     <div className="card-text">
-                      <h4 className="card-title">My Portfolio - Old</h4>
-                      <h5 className="card-info">Web Application</h5>
+                      <h4 className="card-title">My Portfolio</h4>
+                      <h5 className="card-info">React Website</h5>
                     </div>
                   </div>
                 </div>
@@ -84,15 +84,15 @@ class Work extends Component {
               <NavLink
                 exact
                 activeClassName="active"
-                to="/work/portfolio"
+                to="/work/portfolio-old"
                 className="nav-text"
               >
                 <div className="card bg-aqua shadow">
-                  <div className="card-img img-my-portfolio" />
+                  <div className="card-img img-my-portfolio-old" />
                   <div className="card-body">
                     <div className="card-text">
-                      <h4 className="card-title">My Portfolio</h4>
-                      <h5 className="card-info">Web Application</h5>
+                      <h4 className="card-title">My Portfolio - Old</h4>
+                      <h5 className="card-info">React Website</h5>
                     </div>
                   </div>
                 </div>
